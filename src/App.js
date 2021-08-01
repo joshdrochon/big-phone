@@ -56,7 +56,7 @@ function App({ history, location }) {
 
 		setState({...state, cart: updatedCart, total: state.total + phone.price})
 	}
-
+	
 	function removePhone({ brand, price }) {
 		let updatedCart = [...state.cart]
 
