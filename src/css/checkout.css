@@ -1,0 +1,49 @@
+.checkout {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.checkout-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.checkout-item .box + div {
+    position: relative;
+    width: 132px;
+    height: 100px;
+    float: right;
+}
+
+.checkout-item .box + div p {
+    margin-top: 41px;
+    margin-bottom: 41px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.checkout-item .no-style-btn {
+    margin-bottom: 7px;
+}
+
+.heading span:last-child {
+    margin-right: 96px;
+}
+
+.checkout button.pay, 
+.checkout-item + button {
+    display: block;
+    margin: 25px auto;
+}
+
+.no-items {
+    text-align: center;
+}
+
+button.pay {
+    padding: 5px;
+}

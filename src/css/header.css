@@ -1,0 +1,28 @@
+.header {
+    text-align: center;
+    position: relative;
+}
+    h2.title {
+        display: inline-block;
+    }
+
+    button.cart {
+        position: absolute;
+        top: 17px;
+        right: 5px; 
+    }
+
+    div.number-of-items-badge {
+        position: absolute;
+        text-align: center;
+        width: 17px;
+        height: 17px;
+        line-height: 17px;
+        font-size: 10px;
+        border-radius: 50%;
+        background-color: salmon;
+    }
+
+    img[alt="shopping-cart"] {
+        width: 36px;
+    }   

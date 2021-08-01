@@ -1,0 +1,62 @@
+.phone-list {
+    max-width: calc(100% - 100px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 600px) {
+    .phone-list {
+        max-width: 600px;
+    }
+}
+
+img.arrow {
+    width: 36px;
+}
+
+.phones button > img.arrow {
+    position: absolute;
+    top: 50%;
+}
+
+#left-arrow {
+    left: 5px;
+}
+
+#right-arrow {
+    right: 5px;
+}
+
+.phone {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    font-size: 11px;
+}
+
+.brand {
+    display: inline-block;
+    text-align: center;
+}
+
+.price span {
+    float: right;
+}
+
+.box {
+    display: inline-block;
+    position: relative;
+    border: 1px solid black;
+    width: 90px;
+    height: 90px;
+}
+
+.box .brand {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
